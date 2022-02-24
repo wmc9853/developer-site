@@ -18,3 +18,23 @@ import Iframe from 'components/Iframe';
 <Iframe url="https://www.aliwork.com/developer/iframe-v2?isRenderNav=false" />
 
 ## 组件属性
+import AttrTable from 'components/AttrTable';
+
+<AttrTable
+  dataSource={[
+    {
+      attr: '标题',
+      code: 'title',
+      type: 'String',
+      demo: '"标题"',
+      desc: '',
+    },
+{
+      attr: 'Iframe地址',
+      code: 'src',
+      type: 'String',
+      demo: '"https://www.aliwork.com/"',
+      desc: '',
+    }
+  ]}
+/>
